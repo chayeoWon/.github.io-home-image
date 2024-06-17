@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("mbx.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100vw auto;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: 100vh;
+    padding: 50px;
+}
+
+.t1 {
+    background-color: red;
+    opacity: 0.4;
+}
+
+.t1:hover {
+    opacity: 1;
+}
+
+.t2 {
+    background-color: orange;
+    opacity: 0.4;
+}
+
+.t2:hover {
+    opacity: 1;
+}
+
+.t3 {
+    background-color: yellow;
+    opacity: 0.4;
+}
+
+.t3:hover {
+    opacity: 1;
+}
+
+.t4 {
+    background-color: #99ff00;
+    opacity: 0.4;
+}
+
+.t4:hover {
+    opacity: 1;
+}
+
+.t5 {
+    background-color: green;
+    opacity: 0.4;
+}
+
+.t5:hover {
+    opacity: 1;
+}
+
+.t6 {
+    background-color: #33ccff;
+    opacity: 0.4;
+}
+
+.t6:hover {
+    opacity: 1;
+}
+
+.t7 {
+    background-color: blue;
+    opacity: 0.4;
+}
+
+.t7:hover {
+    opacity: 1;
+}
+
+.t8 {
+    background-color: navy;
+    opacity: 0.4;
+}
+
+.t8:hover {
+    opacity: 1;
+}
+
+.t9 {
+    background-color: purple;
+    opacity: 0.4;
+}
+
+.t9:hover {
+    opacity: 1;
+}
+
+.t10 {
+    background-color: fuchsia;
+    opacity: 0.4;
+}
+
+.t10:hover {
+    opacity: 1;
+}
+
+@media screen and (max-aspect-ratio: 626/417) {
+    body {
+        background-size: auto 100vh;
+    }
+
+    section {
+    width: calc(100% / 3);
+    height: 100vh;
+    }
+}
